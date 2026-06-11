@@ -1,0 +1,38 @@
+body {
+  background: #f5f5f5;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 480px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.tab-bar {
+  display: flex;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.tab-bar button {
+  flex: 1;
+  padding: 12px 0;
+  border: none;
+  background: none;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.tab-bar button.active {
+  color: #4f46e5;
+  font-weight: 600;
+}
